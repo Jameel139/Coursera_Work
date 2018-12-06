@@ -1,1 +1,23 @@
+.style{
+font-family: Arial;
+font-size: 24px;
+text-align: justify-right;
+}
 
+.box{
+    box-sizing:border-box;
+    border:1px solid black;
+    margin: 5px,2px,2px,2px;
+    padding:5px;
+    background: grey;
+}
+
+.name{
+    box-sizing:border-box;
+    border:1px solid black;
+    float:right;
+    width: 10px;
+    height: 5px;
+    background: red;
+    font: white;
+}
