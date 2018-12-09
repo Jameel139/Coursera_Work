@@ -26,8 +26,8 @@ div{
 p{
     border:1px solid black;
     position:absolute;
-    top: 0px;
-    right:0px;
+    top: 0%;
+    right:0%;
     color: white;
     border: 1px, solid black;
 }
