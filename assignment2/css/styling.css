@@ -26,15 +26,15 @@ div{
 p{
     border:1px solid black;
     position:absolute;
-    top: 0%;
-    right:0%;
+    top: 0px;
+    right:0px;
     color: white;
     border: 1px, solid black;
 }
 
 #Chicken{background:red;}
 #Beef{background:blue;}
-#Fish{background:green;}
+#Fish{background:black;}
 
 @media (min-width:992px) {
 
