@@ -10,46 +10,79 @@ text-align: justify;
 h1{
     margin-bottom:15px;
     text-align:center;
+}
 
+#div1 { 
+        float: right;
+        border:1px solid black;
+        width: 100%;
+        margin:10px;
+        padding:5px;
+        background: grey;
+}
+
+#div2 { 
+        float: right;
+        border:1px solid black;
+        width: 100%;
+        margin:10px;
+        padding:5px;
+        background: grey;
+}
+
+#div3 { 
+        float: right;
+        border:1px solid black;
+        width: 100%;
+        margin:10px;
+        padding:5px;
+        background: grey;
 }
 
 @media (min-width:992px) {
 
-    #divl{
-        float: right;
-        border:1px solid black;
-        margin:10px;
-        padding:5px;
-        background: grey;
+    #divl{        
+        width=33.33%;
+}
+    
+    #div2{        
         width=33.33%;
 }
 
+    #div3{        
+        width=33.33%;
+}
+    
 @media (min-width:768px) and (max-width:991px) {
 
-    #divm{
-        float: right;
-        border:1px solid black;
-        margin:10px;
-        padding:5px;
-        background: grey;
+     #divl{        
         width=50%;
-    } 
+}
     
-    third{width=100%;}
+   #div2{        
+        width=50%;
+}
+    
+ #div3{        
+        width=100%;
 }
 
-@media (max-width:767px){
+/*@media (max-width:767px){
 
-    #divs{
-        float: right;
-        border:1px solid black;
-        margin:10px;
-        padding:5px;
-        background: grey;
-        width=100%;}
-
+     #divl{        
+        width=50%;
+}
+    
+   #div2{        
+        width=50%;
+}
+    
+ #div3{        
+        width=100%;
 }
 
+}
+*/
 
 p{
     border:1px solid black;
