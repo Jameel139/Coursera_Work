@@ -42,43 +42,45 @@ h1{
 @media (min-width:992px) {
 
     #divl{        
-        width=33.33%;
+        width:33.33%;
 }
     
     #div2{        
-        width=33.33%;
+        width:33.33%;
 }
 
     #div3{        
-        width=33.33%;
+        width:33.33%;
+}
 }
     
 @media (min-width:768px) and (max-width:991px) {
 
      #divl{        
-        width=50%;
+        width:50%;
 }
     
    #div2{        
-        width=50%;
+        width:50%;
 }
     
  #div3{        
-        width=100%;
+        width:100%;
 }
+    }
 
 /*@media (max-width:767px){
 
      #divl{        
-        width=50%;
+        width:50%;
 }
     
    #div2{        
-        width=50%;
+        width:50%;
 }
     
  #div3{        
-        width=100%;
+        width:100%;
 }
 
 }
