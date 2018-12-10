@@ -17,7 +17,7 @@ h1{
 
 #div1 { 
         float: right;
-        position: absolute;
+        
         width: 100%;
         border:1px solid black;
         background: grey;
@@ -27,7 +27,7 @@ h1{
 
 #div2 { 
         float: right;
-        position: absolute;
+        
         width: 100%;
         border:1px solid black;
         background: grey;
@@ -35,7 +35,7 @@ h1{
 
 #div3 { 
         float: right;
-        position: absolute;
+        
         width: 100%;
         border:1px solid black;
         background: grey;
@@ -93,9 +93,7 @@ p{
     width: 100px;
     height: 50px;
     text-align:left;
-    position:relative;
-    top:0px;
-    right:100px;
+    
     margin-bottom: 10px;
     border:1px solid black;
 }
