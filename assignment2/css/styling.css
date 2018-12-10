@@ -2,7 +2,7 @@
 html{
 font-family: Arial;
 font-size: 24px;
-text-align: justify-left;
+text-align: justify;
 }
 
 *{box-sizing:border-box;}
@@ -15,7 +15,7 @@ h1{
 
 @media (min-width:992px) {
 
-    div{
+    #divl{
         float: right;
         border:1px solid black;
         margin:10px;
@@ -26,7 +26,7 @@ h1{
 
 @media (min-width:768px) and (max-width:991px) {
 
-    div{
+    #divm{
         float: right;
         border:1px solid black;
         margin:10px;
@@ -40,7 +40,7 @@ h1{
 
 @media (max-width:767px){
 
-    div{
+    #divs{
         float: right;
         border:1px solid black;
         margin:10px;
