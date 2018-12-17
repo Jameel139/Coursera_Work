@@ -1,13 +1,11 @@
-
 html{
 font-family: Arial;
-font-size: 24px;
+font-size: 20px;
 text-align: justify;
-box-sizing: border-box;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+*{
+  box-sizing: border-box;
 }
 
 h1{
@@ -15,91 +13,68 @@ h1{
     text-align:center;
 }
 
-#div1 { 
-        float: right;
+section { 
         
-        width: 100%;
         border:1px solid black;
         background: grey;
-        padding: 0px 2px 2px 2px;
-        margin: 2px
+        padding:12px;
+        margin: 10px;
+        height: 300px;
+        overflow: auto;
+        position:relative;
+      
 }
 
-#div2 { 
-        float: right;
-        
-        width: 100%;
-        border:1px solid black;
-        background: grey;
-}
 
-#div3 { 
-        float: right;
-        
-        width: 100%;
-        border:1px solid black;
-        background: grey;
-}
 
 @media (min-width:992px) {
 
-    #divl{        
+    div{        
         width:33.33%;
 }
     
-    #div2{        
-        width:33.33%;
-}
-
-    #div3{        
-        width:33.33%;
-}
 }
     
 @media (min-width:768px) and (max-width:991px) {
 
-     #divl{        
+     div{        
         width:50%;
 }
-    
-   #div2{        
-        width:50%;
-}
-    
- #div3{        
-        width:100%;
-}
+	#fsh{width:100%;}
+
     }
 
 @media (max-width:767px){
 
-     #divl{        
-        width:50%;
-}
-    
-   #div2{        
-        width:50%;
-}
-    
- #div3{        
+     div{        
         width:100%;
 }
 
 }
 
 
-h2{
+h4{
     color: white;
     text-size: 15px;
     width: 100px;
-    height: 50px;
-    text-align:left;
-    float: right;
-    margin-bottom: 10px;
+    height: 30px;
+    text-align:center;
     border:1px solid black;
+    margin:0;
+    position: absolute;
+    top: 0;
+    right:0;
+    
+    
+  
 }
 
 #Chicken{background:red;}
 #Beef{background:blue;}
 #Fish{background:#006400;}
 
+div{
+
+float:left;
+
+}
