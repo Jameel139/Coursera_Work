@@ -19,7 +19,7 @@ section {
         background: grey;
         padding: 32px 12px 12px 12px;
         margin: 10px;
-        height: 200px;
+        height: 700px;
         overflow: auto;
         position:relative;
       
@@ -53,7 +53,7 @@ section {
 }
 
 
-h4{
+h3{
     color: white;
     text-size: 15px;
     width: 100px;
@@ -78,6 +78,7 @@ float:left;
 
 }
 
-#tall {
+/*#tall {
 	height: 1000px;
 }
+*/
