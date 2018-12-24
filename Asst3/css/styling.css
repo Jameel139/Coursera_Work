@@ -16,8 +16,8 @@ h1{
 section { 
         
         border:1px solid black;
-        background: grey;
-        padding: 32px 12px 12px 12px;
+        background: #D3D3D3;
+        padding: 40px 12px 12px 12px;
         margin: 10px;
         height: 700px;
         overflow: auto;
@@ -55,7 +55,7 @@ section {
 
 h3{
     color: white;
-    text-size: 15px;
+    text-size: 13px;
     width: 100px;
     height: 30px;
     text-align: center;
